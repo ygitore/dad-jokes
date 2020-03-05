@@ -1,0 +1,23 @@
+.jokeList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.joke {
+    flex-basis: 28%;
+    background-color: aliceblue;
+    border: 1px dotted darkcyan;
+    margin: 0.35rem 0;
+    padding: 1.25rem;
+}
+
+.joke__question {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.joke__answer {
+    color: darkgoldenrod;
+}
