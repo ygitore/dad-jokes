@@ -7,6 +7,6 @@ export const JokeList = () => {
     const jokes = useJokes()
 
     for (const joke of jokes) {
-        contentTarget.innerHTML += Joke(joke)
+        contentTarget.innerHTML += Joke(joke)       
     }
 }
